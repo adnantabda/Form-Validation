@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="dist/css/style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <form action="#" class="form" novalidate>
+        <div class="element-container">
+            <label for="username">username</label>
+            <input type="text" name="username" id="username" required>
+            <span class="error-username" aria-live="polite"></span>
+        </div>
+        <div class="element-container">
+            <label for="email">email</label>
+            <input type="email" name="email" id="email" required>
+            <span class="error-email" aria-live="polite"></span>
+
+        </div>
+        <div class="element-container">
+            <label for="country">country</label>
+            <input type="text" name="country" id="country" required>
+            <span class="error-country" aria-live="polite"></span>
+
+        </div>
+        <div class="element-container">
+            <label for="zip-code">zip-code</label>
+            <input type="text" name="zip-code" id="zip-code" required>
+            <span class="error-zip-code" aria-live="polite"></span>
+
+        </div>
+        <div class="element-container">
+            <label for="password">password</label>
+            <input type="password" name="password" id="password" required>
+            <span class="error-password" aria-live="polite"></span>
+
+        </div>
+        <div class="element-container">
+            <label for="password-confirmation">confirm password</label>
+            <input type="password" name="password-confirmation" id="password-confirmation" required> 
+            <span class="error-confirmation-password" aria-live="polite"></span>
+
+        
+        </div>
+        <button id="submit">Submit</button>
+
+    </form>
+    
+</body>
+</html>
